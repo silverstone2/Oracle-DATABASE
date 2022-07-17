@@ -11,7 +11,9 @@ Oracle(DATABASE)
 관리자 계정 비밀번호 : 설치 시 설정한 비밀번호
 
 * 계정 생성 방법
-- 오라클 설치 후 명롱 프롬프트(cmd)창에서 oracle 실행(sqlplus.exe 실행)
+- 오라클 설치 후 명롱 프롬프트(cmd)창에서 oracle 실행(sqlplus.exe 실행)<br>
+- 사용자명 / 비번 : system / oralce으로 생성
+- CREATE USER acorn IDENTIFIED BY acorn1234(사용자 계정은 acorn / 비밀번호는 acorn1234로 생성)
 
 ------------------------
 
