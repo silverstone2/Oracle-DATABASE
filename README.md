@@ -154,7 +154,7 @@ dual은 dummy table
 
 
 DATE -> CHAR : TO_CHAR()
-CHAR -> DATE : TO_DATE()
+CHAR -> DATE : TO_DATE()<br>
 ---------------------여기까지 단일행 함수=--------------------
 
 
@@ -229,34 +229,34 @@ DESC USER_CONSTRAINTS는 제약조건에 대한 경고를 조회할 수 있는 �
 
 
 
-TABLE_NAME                                                   CONSTRAINT_NAME
-          CO
------------------------------------------------------------- ------------------------------------------------------------ --
-EMP2                                                         SYS_C004008
-          R  REFERENCE
-MEMBER                                                       SYS_C004004
-          C  NOT NULL
-EMP                                                          FK_DEPTNO
-          R 
-DEPT                                                         PK_DEPT
-          P  PRIMARY KEY
-EMP                                                          PK_EMP
-          P
-MESSAGE                                                      SYS_C004003
-          P
-BIN$6bzPFNdCS4CrUAcWrG0VTA==$0                               BIN$RYNPWeFqQeC3xFOBke2w5w==$0
-          P
-BIN$ltKOZLEMTKGKfQk7YZLwtg==$0                               BIN$fzww+3yYRC2i17Ln9WYk9A==$0
-          P
-MEMBER                                                       SYS_C004005
-          P
-DEPT2                                                        SYS_C004006
-          P
-EMP2                                                         SYS_C004007
-          P
-
-11 개의 행이 선택되었습니다.
-fk = 외래기 foreign key
+TABLE_NAME                                                   CONSTRAINT_NAME<br>
+          CO<br>
+------------------------------------------------------------ ------------------------------------------------------------ --<br>
+EMP2                                                         SYS_C004008<br>
+          R  REFERENCE<br>
+MEMBER                                                       SYS_C004004<br>
+          C  NOT NULL<br>
+EMP                                                          FK_DEPTNO<br>
+          R <br>
+DEPT                                                         PK_DEPT<br>
+          P  PRIMARY KEY<br>
+EMP                                                          PK_EMP<br>
+          P<br>
+MESSAGE                                                      SYS_C004003<br>
+          P<br>
+BIN$6bzPFNdCS4CrUAcWrG0VTA==$0                               BIN$RYNPWeFqQeC3xFOBke2w5w==$0<br>
+          P<br>
+BIN$ltKOZLEMTKGKfQk7YZLwtg==$0                               BIN$fzww+3yYRC2i17Ln9WYk9A==$0<br>
+          P<br>
+MEMBER                                                       SYS_C004005<br>
+          P<br>
+DEPT2                                                        SYS_C004006<br>
+          P<br>
+EMP2                                                         SYS_C004007<br>
+          P<br>
+<br>
+11 개의 행이 선택되었습니다.<br>
+fk = 외래키 foreign key
 
 
 
